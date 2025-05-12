@@ -25,8 +25,8 @@ A FastAPI-based microservice for managing product data. This service allows impo
 Make sure you have the following installed:
 
 - Python 3.10 or above
+- PyCharm or Visual Studio
 - MongoDB running locally or in the cloud
-- `virtualenv` (optional but recommended)
 
 ### Installation
 
@@ -51,7 +51,7 @@ uvicorn app.main:app --reload
 
 ### Import Products from Excel
 - Set the method to POST. 
-- Set the URL to http://localhost:8000/importExcel. 
+- Set the URL to http://localhost:8000//import-excel. 
 - In the Body tab, select form-data and upload the file field with the Excel file. 
 - Hit Send to upload the file.
 
