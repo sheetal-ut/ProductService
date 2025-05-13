@@ -10,7 +10,7 @@ A FastAPI-based microservice for managing product data. This service allows impo
 
 ## Tech Stack
 
-- Python 3.10+
+- Python 3.10 or 3.11
 - FastAPI
 - MongoDB (via pymongo)
 - Pandas
