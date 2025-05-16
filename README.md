@@ -35,11 +35,14 @@ Make sure you have the following installed:
 git clone https://github.com/sheetal-ut/ProductService
 cd ProductService
 
+# Add Python 3.11 to PATH
+
 # Create and activate virtual environment
 python -m venv .venv
 source .venv/bin/activate     # On Windows: .venv\Scripts\activate
 
 # Install dependencies
+python.exe -m pip install --upgrade pip
 pip install -r requirements.txt
 
 ```
